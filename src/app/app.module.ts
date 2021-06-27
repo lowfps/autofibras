@@ -15,8 +15,9 @@ import { ParquesInfantilesComponent } from './components/parques-infantiles/parq
 import { TinasJacuzzisComponent } from './components/tinas-jacuzzis/tinas-jacuzzis.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CarouselComponent, CarouselModule, OwlRouterLinkDirective } from 'ngx-owl-carousel-o';
+import { CarouselModule, OwlRouterLinkDirective } from 'ngx-owl-carousel-o';
 import { RouterModule, ROUTES } from '@angular/router';
+import { NgxPaginationModule } from 'ngx-pagination';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +38,7 @@ import { RouterModule, ROUTES } from '@angular/router';
     AppRoutingModule,
     BrowserAnimationsModule,
     CarouselModule,
-    
+    NgxPaginationModule,
     RouterModule,
     
   ],
